@@ -4,53 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <div class="first_quarter">
+    <div class="first_quarter border">
         <div class="header">
-            Header logo
+            <div style="font-size: 24px; color: #F9FAF8;"><strong>Header logo</strong></div> 
             <ul>
                 <a href="#">header link one</a>
                 <a href="#">header link two</a>
                 <a href="#">header link three</a>
             </ul>
         </div>
-        <div class="first_quarter">
-            <p>This website is awesome</p>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
-            <img src="#" alt="this is a placeholder for an image">
+        <div class="body">     
+            <div style="width: 50dvw; margin-right: 24px;">
+                <div class="title">This website is awesome</div>
+                <div class="secondary_text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+                <button><strong>Sign up</strong></button>
+            </div>
+            <div style="width: 50dvw;background-color: grey;"><img src="square-16.jpg" alt="this is a placeholder for an image"></div>
         </div>
     </div>
     <div class="second_quarter">
-        Some random information.
-        <div class="panel">
-            <img src="#">
-            <div class="panel_text">this is some subtext under an illustration or image</div>
-        </div>
-        <div class="panel">
-            <img src="#">
-            <div class="panel_text">this is some subtext under an illustration or image</div>
-        </div>
-        <div class="panel">
-            <img src="#">
-            <div class="panel_text">this is some subtext under an illustration or image</div>
-        </div>
-        <div class="panel">
-            <img src="#">
-            <div class="panel_text">this is some subtext under an illustration or image</div>
+        <p style="font-size: 36px; color: #1F2937; font-weight: 900; text-align: center;">Some random information.</p>
+        <div class="metapanel">
+            <div class="panel">
+                <img src="square-16.jpg">
+                <div class="panel_text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="panel">
+                <img src="square-16.jpg">
+                <div class="panel_text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="panel">
+                <img src="square-16.jpg">
+                <div class="panel_text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="panel">
+                <img src="square-16.jpg">
+                <div class="panel_text">this is some subtext under an illustration or image</div>
+            </div>
         </div>
     </div>
-    <div class="third_quarter">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>>
-        <p>Thor, God of Thunder</p>
+    <div class="third_quarter" style="background-color: #E5E7EB;">
+        <p style="font-size: 36px; color: #1F2937; font-weight: 300; font-style: italic; margin: 0;">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+        <p style="align-self: flex-end;"><strong>-Thor, God of Thunder</strong></p>
     </div>
     <div class="fourth_quarter">
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right over there!</p>
+        <div><strong>Call to action! It's time!</strong><br>
+        Sign up for our product by clicking that button right over there!
+        </div>
         <button>Sign up</button>
     </div>
-    <div class="footer">
+    <div class="footer border">
         Copyright &copy; The Odin Project 2021
     </div>
 </body>

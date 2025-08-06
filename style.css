@@ -1,5 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
-    
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    background-color: #1F2937;
+}
+
+ul a, .secondary_text{
+    font-size: 18px;
+    color: #F9FaF8;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+ul a {
+    margin-right: 16px;
+}
+
+.body {
+    display: flex;
+    padding: 48px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+
+.fourth_quarter, button {
+    background-color: #3882F6;
+    color: white;
+}
+
+button {
+    border-radius: 5px;
+    padding: 4px 18px;
+}
+
+
+.first_quarter {
+    padding: 0 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+}
+
+.metapanel {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    padding: 36px;
+    text-align: center;
+}
+
+.panel img {
+    width: 120px;
+    border-radius: 10%;
+    border: solid blue;
+
+}
+
+.third_quarter {
+    padding: 92px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth_quarter {
+    margin: 60px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.fourth_quarter button {
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 24px;
 }
